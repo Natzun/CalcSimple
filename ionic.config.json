@@ -1,0 +1,7 @@
+{
+  "name": "CalcSimple",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

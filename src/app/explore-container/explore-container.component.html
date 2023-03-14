@@ -1,0 +1,34 @@
+<!-- <div id="container">
+  <strong>{{ name }}</strong>
+  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+</div> -->
+
+<main>
+  <div class="corpo">
+    <h1>Calculadora</h1>
+    <br>
+    <h2>Insira o valor 1:</h2><input type="number" id="valor1">
+    <br>
+    <h3>Insira o valor 2:</h3><input type="number" id="valor2">
+  </div>
+
+  <div class="funcoesBotao">
+    <h1>Selecione o operador:</h1>
+    <button id="soma" (click)="calcular($event)">
+      +
+    </button>
+    <button id="subtracao" (click)="calcular($event)">
+      -
+    </button>
+    <button id="divisao" (click)="calcular($event)">
+      /
+    </button>
+    <button id="multiplicacao" (click)="calcular($event)">
+      *
+    </button>
+  </div>
+
+  <div class="resultado">
+    <h1 id="resultadoOutput">vazio</h1>
+  </div>
+</main>

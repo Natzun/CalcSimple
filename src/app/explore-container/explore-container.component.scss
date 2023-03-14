@@ -1,0 +1,96 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  div{
+    width: 100%;
+  }
+}
+
+.funcoesBotao{
+  margin-top: 1%;
+
+  #soma{
+    padding: 8px;
+    border: 0;
+    border-radius: 50px;
+    line-height: 2;
+    cursor: pointer;
+    width: 5%;
+  }
+
+  #subtracao{
+    padding: 8px;
+    border: 0;
+    border-radius: 50px;
+    line-height: 2;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 5%;
+  }
+
+  #divisao{
+    padding: 8px;
+    border: 0;
+    border-radius: 50px;
+    line-height: 2;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 5%;
+  }
+
+  #multiplicacao{
+    padding: 8px;
+    border: 0;
+    border-radius: 50px;
+    line-height: 2;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 5%;
+  }
+
+  h1{
+    font-size: 15px;
+  }
+}
+
+.corpo{
+  h1{
+    margin-bottom: auto;
+  }
+  h2{
+    font-size: 15px;
+  }
+  h3{
+    font-size: 15px;
+  }
+}
